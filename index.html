@@ -1,1 +1,26 @@
-New folder 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab 1</title>
+<script>
+function yourname()
+{
+var FirstName = document.getElementById("FirstName").value;
+var LastName = document.getElementById("LastName").value;
+
+alert("Here is your name: " + FirstName + " " + LastName); 
+}
+</script>
+</head>
+<body>
+<h1>Lab #1 Enter your name</h1>
+First Name
+<input id = "FirstName" value = "" type="text" placeholder="First name">
+<br>
+Last Name
+<input id = "LastName" value = "" type="text" placeholder="Last name">
+<p>Click the button to enter your name</p>
+<button onclick="yourname()"> Click here! </button>
+
+</body>
+</html>
